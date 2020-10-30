@@ -1,0 +1,97 @@
+/*Header*/
+.highlight{
+	font-size: 40px;
+	color: #f4f4f4;
+	font-weight: 100;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1.5px;  
+    text-transform: uppercase;
+}
+#branding{
+	display: flex;  
+	justify-content: center;
+	padding: 10px;
+	background: url(../img/background-news.jpg) no-repeat;
+	background-size: cover;
+}
+header{
+	min-height: 70%;
+	border-bottom: #e8491d 2px solid;
+}
+.container{
+	width: 100%;
+	margin: auto;
+}
+/*Form*/
+.container-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+form label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #354248;
+    font-size: 22px;
+    text-align: center;
+}
+.title-item{
+    width: 100%;
+    margin: 5px;
+}
+#main-form{
+    width: 100%; 
+    border: 1px dotted #354248;   
+    background-color: #d3d3d3;
+}
+input{
+    width: 80%;
+    text-align: center;
+    font-size: 16px;
+}
+.inputclass{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+/*Subscribe*/
+.button_1{
+	height: 38px;
+	background: #e8491d;
+    border: 1px solid #f4f4f4;
+    margin: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+	font-size: 18px;
+}
+#newsletter h1{
+    margin: 5px;
+	text-align: center;
+	letter-spacing: 1px;
+    width: 100%;
+    color: #e8491d;
+    text-decoration: underline;
+}
+.container-suscribe{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.container-suscribe h1{
+    padding-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 22px;
+}
+#newsletter h1{
+	margin: 5px;
+	text-align: center;
+	letter-spacing: 1px;
+	width: 100%;
+}
+#newsletter form{
+	text-align: center;
+	margin: auto;
+    width: 100%;
+}
+
