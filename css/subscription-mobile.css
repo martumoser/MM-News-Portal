@@ -54,6 +54,12 @@ input{
     justify-content: center;
     margin: 5px;
 }
+p{
+	color: #e8491d;
+}
+#p-name, #p-email, #p-pass, #p-rep, #p-age, #p-age-integer, #p-tel, #p-add, #p-city, #p-zip, #p-dni{
+	display: none;
+}
 /*Subscribe*/
 .button_1{
 	height: 38px;

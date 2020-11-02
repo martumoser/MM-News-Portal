@@ -30,14 +30,16 @@
                         <div class="box-1">
                             <label class="title-item ">Name</label>
                             <div class="inputclass">
-                                <input type="text" id="name" placeholder="Enter full name">
+                                <input type="text" id="name" placeholder="John Lee">
                             </div>
+                            <p id="p-name">Please enter a valid name</p>
                         </div>
                         <div class="box-1">
                             <label class="title-item">Email</label>
                             <div class="inputclass">   
-                                <input type="email" id="email" placeholder="Enter email">
+                                <input type="email" id="email" placeholder="johnlee@gmail.com">
                             </div>
+                            <p id="p-email">Please enter a valid email</p>
                         </div>
                     </div>
                     <div class="container2">
@@ -46,12 +48,14 @@
                             <div class="inputclass">
                                 <input type="password" id="password" placeholder="Enter password">
                             </div>
+                            <p id="p-pass">The password must contain at least 8 characters including numbers and letters</p>
                         </div>
                         <div class="box-2">
                             <label class="title-item">Repeat Password</label>
                             <div class="inputclass">
-                                <input type="password" placeholder="Repeat password">
+                                <input type="password" id="repPass" placeholder="Repeat password">
                             </div>
+                            <p id="p-rep">Passwords must match</p>
                         </div>
                     </div>
                     <div class="container3">
@@ -60,40 +64,47 @@
                             <div class="inputclass">
                                 <input type="text" id="age" placeholder="Enter age">
                             </div>
+                            <p id="p-age">Invalid age</p>
+                            <p id="p-age-integer">Age must be a integer</p>
                         </div>
                         <div class="box-3">
                             <label class="title-item">Phone Number</label>
                             <div class="inputclass">
-                                <input type="tel" id="tel" placeholder="Enter phone number">
+                                <input type="tel" id="tel" placeholder="341244567">
                             </div>
+                            <p id="p-tel">Invalid phone number</p>
                         </div>
                     </div>
                     <div class="container4">
                         <div class="box-4">
                             <label class="title-item">Address</label>
                             <div class="inputclass">
-                                <input type="text" id="address" placeholder="Enter address">
+                                <input type="text" id="address" placeholder="Herbert Ave 1120">
                             </div>
+                            <p id="p-add">Invalid address</p>
                         </div>
                         <div class="box-4">
                             <label class="title-item">City</label>
                             <div class="inputclass">
-                                <input type="text" id="city" placeholder="Enter city">
+                                <input type="text" id="city" placeholder="Miami">
                             </div>
+                            <p id="p-city">Invalid city</p>
                         </div>
                     </div>
                     <div class="container5">
                         <div class="box-5">
                             <label class="title-item">ZIP</label>
                             <div class="inputclass">
-                                <input type="text" id="codpostal" placeholder="Enter ZIP">
+                                <input type="text" id="zip" placeholder="2000">
                             </div>
+                            <p id="p-zip">Invalid zip</p>
                         </div>
                         <div class="box-5">
                             <label class="title-item">DNI</label>
                             <div class="inputclass">
-                                <input type="text" id="dni" placeholder="Enter DNI">
+                                <input type="text" id="dni" placeholder="12345678">
                             </div>
+                            <p id="p-dni">Enter a valid DNI</p>
                         </div>
                     </div>
                     <div class="containerbutton">
@@ -105,5 +116,6 @@
             </div>
         </div>
     </section>
+    <script src="./js/dom.js"></script>
 </body>
 </html>
